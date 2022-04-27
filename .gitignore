@@ -33,4 +33,6 @@
 
 #cmake generated files
 Makefile
-CMakeFiles/*.*
+CMakeFiles/
+CMakeCache.txt
+*.cmake
