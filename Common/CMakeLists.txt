@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10.0)
 
-project(common)
+project(commondata)
 
-add_library(common node.cpp)
+add_executable(commondata test.cpp node.cpp)
